@@ -1,3 +1,67 @@
+/*общие стили*/
 body {
-  background-color: aqua;
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*переменные*/
+:root {
+  --link-button-blue-color: #2196f3;
+  --moz-background-hero-foter-color: #2f303a;
+  --heading-text-color: #212121;
+  --text-color: #757575;
+  --button-background-color: #f5f4fa;
+}
+
+/*studio*/
+
+.logo {
+  color: var(--link-button-blue-color);
+  font-family: "Raleway", sans-serif;
+}
+
+.logo-hed {
+  color: #000000;
+}
+
+.hero {
+  background-color: var(--moz-background-hero-foter-color);
+}
+
+.hero h1 {
+  color: #ffffff;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+footer {
+  background-color: var(--moz-background-hero-foter-color);
+}
+
+.logo-fot {
+  color: #ffffff;
 }
