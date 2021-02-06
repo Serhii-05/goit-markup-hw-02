@@ -162,6 +162,7 @@ a {
 /*portfolio*/
 
 .button {
+  border: none;
   color: var(--heading-text-color);
   background-color: #f5f4fa;
 
