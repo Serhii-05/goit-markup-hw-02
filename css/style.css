@@ -45,10 +45,10 @@ a {
 .link-nav:hover,
 .link-nav:focus {
   color: var(--link-button-blue-color);
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -60,10 +60,10 @@ a {
 .link-header:hover,
 .link-header:focus {
   color: var(--link-button-blue-color);
-  font-style: normal;
+
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 
@@ -75,6 +75,22 @@ a {
 
 .hero h1 {
   color: #ffffff;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero-link {
+  color: #ffffff;
+  background-color: var(--link-button-blue-color);
+
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.85;
+  letter-spacing: 0.06em;
 }
 
 .visually-hidden {
@@ -90,6 +106,94 @@ a {
   overflow: hidden;
 }
 
+.features .list-head {
+  color: var(--heading-text-color);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features .list-text {
+  color: var(--text-color);
+
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.direction-head {
+  color: var(--heading-text-color);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.team-head {
+  color: var(--heading-text-color);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  color: var(--heading-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  color: var(--text-color);
+
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/*portfolio*/
+
+.button {
+  color: var(--heading-text-color);
+  background-color: #f5f4fa;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: var(--link-button-blue-color);
+  color: #ffffff;
+}
+
+.work-head {
+  color: var(--heading-text-color);
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2px;
+  letter-spacing: 0.06em;
+}
+
+.work-text {
+  color: var(--text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
 /*footer*/
 
 footer {
@@ -98,4 +202,19 @@ footer {
 
 .logo-fot {
   color: #ffffff;
+}
+
+.fot-add {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.add-maps {
+  color: #ffffff;
+}
+
+.add-link {
+  color: rgba(255, 255, 255, 0.6);
 }
