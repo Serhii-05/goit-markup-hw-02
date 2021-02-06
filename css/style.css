@@ -37,19 +37,22 @@ a {
   color: #000000;
 }
 
+.link-nav.current {
+  color: var(--link-button-blue-color);
+}
+
 .link-nav {
   color: var(--heading-text-color);
   outline: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .link-nav:hover,
 .link-nav:focus {
   color: var(--link-button-blue-color);
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .link-header {
@@ -162,6 +165,7 @@ a {
 /*portfolio*/
 
 .button {
+  border-radius: 4px;
   border: none;
   color: var(--heading-text-color);
   background-color: #f5f4fa;
